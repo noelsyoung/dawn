@@ -1,0 +1,6 @@
+.sampleComponent {
+  margin: 0 auto;
+}
+.sampleComponent .image {
+  margin-top: 1em;
+}

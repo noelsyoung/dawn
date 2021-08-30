@@ -1,0 +1,20 @@
+{
+  "name": "noelsyoung-dawn",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "chokidar": "^3.4.0",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
+    "sass": "^1.36.0"
+  },
+  "scripts": {
+    "start": "npm-run-all --parallel scss",
+    "scss": "node scripts/scss.js && yarn prettier-css-fix",
+    "prettier": "prettier --check --ignore-path=.gitignore \"src/**/*.{js,css,scss}\"",
+    "prettier-fix": "prettier --write --ignore-path=.gitignore \"src/**/*.{js,css,scss}\"",
+    "prettier-css-fix": "prettier --write --ignore-path=.gitignore \"src/**/*.{js,css,scss}\""
+  }
+}

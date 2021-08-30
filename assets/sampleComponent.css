@@ -1,0 +1,9 @@
+.sampleComponent {
+  margin: 0 auto;
+}
+.sampleComponent .image {
+  margin-top: 1em;
+}
+.sampleComponent h2 {
+  color: blue;
+}

@@ -1,0 +1,9 @@
+.test-class {
+  color: red;
+}
+.test-class .nested-class {
+  color: blue;
+}
+.test-class .nested-class-two {
+  color: green;
+}
